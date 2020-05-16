@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>game</title>
+    <link rel="stylesheet" href="assest/css/style.css">
+    <link rel="stylesheet" href="assest/css/game.css">
+</head>
+<body>
+    <div class="container">
+        <div id="game" class="justify-center justify-coloum">
+            <div id="hud">
+                <div id="hud-item">
+                  <p class="hud-prefix">
+                    Question
+                  </p>
+                  <h1 class="hud-main-text" id="questionCounter"></h1>
+                  <div id="processbar">
+                    <div id="process"></div>
+                  </div>
+                </div>
+
+                <div id="hud-item">
+                  <p class="hud-prefix">
+                    Score
+                  </p>
+                  <h1 class="hud-main-text" id="score">
+                    0
+                  </h1>
+                </div>
+              </div>
+            
+
+
+            <h2 id="question">Who is biggest anime as ever?</h2>
+            <div class="choice-container">
+                <p><div class="choice-prefix">A</div></p>
+                <p><div class="choice-text" data-number="1">Naruto</div></p>
+            </div>
+            <div class="choice-container">
+                <p><div class="choice-prefix">B</div></p>
+                <p><div class="choice-text" data-number="2">One piece</div></p>
+            </div>
+            <div class="choice-container">
+                <p><div class="choice-prefix">C</div></p>
+                <p><div class="choice-text" data-number="3">Dragon Ball Z</div></p>
+            </div>
+            <div class="choice-container">
+                <p><div class="choice-prefix">D</div></p>
+                <p><div class="choice-text" data-number="4">Assassination Classroom</div></p>
+            </div>
+
+        </div>
+    </div>
+    <script src="assest/javascript/game.js"></script>
+</body>
+</html>

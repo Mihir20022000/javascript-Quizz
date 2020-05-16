@@ -1,0 +1,59 @@
+.choice-container{
+    display:flex;
+    width:100%;
+    background:white;
+    margin-bottom:.5rem;
+    border:.1rem solid rgba(86,165,235,.25);
+    font-size:1.8rem;
+
+}
+.choice-prefix{
+    padding:1.5rem 2.5rem;
+    background:blue;
+    color:white;
+}
+.choice-text{
+    padding:1.5rem;
+    width:100%;
+}
+.choice-container:hover{
+    cursor:pointer;
+    transform: translateY(-.15rem);
+    transition: transform 150ms;
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(86, 185, 235, 0.5);
+}
+.correct{
+    background:green;
+}
+.incorrect{
+    background:red;
+}
+
+/* hud */
+#hud{
+    display: flex;
+    justify-content: space-between;
+}
+.hud-prefix{
+    font-size: 2rem;
+}
+
+/* processbar */
+#processbar{
+    width:20rem;
+    height:5rem;
+    border:.2rem solid blue;
+    /* position: fixed; */
+    margin-top:-2.5rem;
+    margin-bottom: 2.5rem;
+      
+}
+#process{
+    width:0%;
+    height:4.56rem;
+    background-color:blue;
+}
+
+
+
+
