@@ -10,7 +10,7 @@
     color:#333;
 }
 body{
-  background: url(image/img1.jpg);
+  background: url(/image/image.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
