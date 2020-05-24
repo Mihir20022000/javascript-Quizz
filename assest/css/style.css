@@ -114,10 +114,23 @@ input{
   font-size:1.5rem;
   padding:.5rem 2rem .6rem;
   border:none;
-  box-shadow: 0 .1rem 1.4rem rgba(86,185,235,0.5);
+  color:green;
+  background-color: transparent;
+  outline: none;
+  border-radius: 2rem;
+  margin-bottom:2rem;
+  text-align: center;
+  text-transform: uppercase;
+  padding:1rem;
+  border-bottom: .4rem solid white;
+  transition: .4s;
 }
 input::placeholder{
   color:#aebdc4;
+  
+}
+input:hover{
+  box-shadow: 0 .1rem 1.4rem rgba(86,185,235,0.5);
 }
 
 #finalscore{
